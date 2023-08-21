@@ -1,0 +1,22 @@
+.titulo__envios {
+    font-size: 60px;
+    text-align: center;
+}
+
+.animacion {
+    animation-name: camion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    z-index: 0;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.envio-img {
+    width: 70%;
+    height: 100%;
+}
+

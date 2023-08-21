@@ -1,0 +1,31 @@
+.contacto-titulo {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 15px;
+}
+
+.formulario {
+    width: 50%;
+    border: 5px #191919 solid;
+    form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .botones {
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        justify-content: center;
+        gap: 40px;
+        button {
+            border: #191919 2px solid;
+            transition: .5s;
+            &:hover {
+            background-color: #191919;
+            color: #ffff;
+            }
+        }
+        
+    }
+}
+

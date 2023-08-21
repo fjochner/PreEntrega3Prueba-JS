@@ -1,0 +1,27 @@
+.caja-ubicacion {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);}
+
+.ubicacion a {
+    text-decoration: none;
+    font-size: 30px;
+    border: 5px #191919 solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: #191919;
+    transition: 0.5s;
+    &:hover {
+        background-color: #191919;
+        color: #ffff;
+        padding: 15px 30px;
+    }
+}
+
+.nosotros-somos-img {
+        width: 50%;
+        height: 100%;
+    }
+.nosotros-estamos-img {
+        width: 75%;
+        height: 100%;
+    }

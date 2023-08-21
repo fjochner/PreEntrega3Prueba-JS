@@ -1,0 +1,18 @@
+.index-img {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+    img {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+

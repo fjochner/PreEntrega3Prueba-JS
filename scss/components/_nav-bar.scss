@@ -1,0 +1,26 @@
+header {
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 5px 30px;
+    transition: 0.5s;
+    &:hover {
+        font-size: 35px;
+    }
+}

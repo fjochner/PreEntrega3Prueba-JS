@@ -1,0 +1,188 @@
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        padding: 5px 30px;
+        transition: 0.5s;
+        &:hover {
+        font-size: 17px;
+        }
+    }    
+}
+
+@media (max-width:1200px) {
+    .caja-productos li {
+        width: 90%;
+        justify-content: space-around;
+        color: #ffff;
+        border-radius: 15px;
+        padding: 5px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    .contacto-titulo {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1000px) {
+    .caja-ubicacion {
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+
+    .caja-productos {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+        li {
+            width: 90%;
+            justify-content: space-around;
+            color: #ffff;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 15px;
+        }
+    }
+    .envio-img {
+        width: 75%;
+    }
+}
+
+@media (max-width:800px) {
+    .contacto-titulo {
+        font-size: 40px;
+    }
+    .formulario {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        position: static;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link {       
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        padding: 5px 30px;
+        transition: 0.5s;
+        &:hover {
+            font-size: 17px;
+        }
+    }
+    .caja-ubicacion {
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+    .nosotros-somos-img {
+        width: 70%;
+        height: 100%;
+    }
+    .caja-productos li {
+        width: 90%;
+        justify-content: space-around;
+        color: #ffff;
+        border-radius: 15px;
+        padding: 5px;
+        padding-bottom: 20px;
+        margin: 15px;
+    }   
+    .titulo {
+        font-size: 50px;
+    }
+
+    .animacion {
+        animation-duration: 3s;
+    }
+
+    .titulo__envios {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .titulo {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .index-img {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .envio-img {width: 90%;
+    }
+}
+
+
+
+@media (max-width:500px) {
+    .ubicacion a {
+        text-decoration: none;
+        font-size: 20px;
+        border: 3px #191919 solid;
+        padding: 10px;
+        border-radius: 15px;
+        color: #191919;
+        transition: .5s;
+        &:hover {
+            background-color: #191919;
+            color: #ffff;
+            padding: 12px 20px;
+        }
+    }
+    .caja-productos {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+        li {
+            width: 90%;
+            justify-content: space-around;
+            color: #ffff;
+            border-radius: 15px;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin: 15px;
+        }    
+    }
+    .titulo {
+        font-size: 30px;
+    }
+
+    .contacto-titulo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:300px) {
+    .contacto-titulo {
+        font-size: 16px;
+    }
+}
